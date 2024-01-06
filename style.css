@@ -1,10 +1,11 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+}
 h1,
 h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+h3 {
+  color: #3d4e60;
 }
 h1 {
   font-size: 26px;
@@ -42,4 +43,27 @@ li {
 }
 #Copyright {
   font-size: 16px;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+}
+
+a:link {
+  color: #109bab;
+  text-decoration: none;
+}
+a:visited {
+  color: #109bab;
+}
+a:hover {
+  color: #13bec4;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
 }
