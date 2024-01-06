@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="description" content="HTML fundamental course" />
     <meta name="keywords" content="html,css,Javascript" />
+    <link href="style.css" rel="stylesheet" />
     <title>The Learning Platform that you where waiting for</title>
   </head>
   <body>
@@ -27,7 +28,9 @@
         width="50"
         height="50"
       />
-      <p>Posted by <strong>Naglaa Mossleh</strong> on Saturday, Jan 4th 2024</p>
+      <p id="auther">
+        Posted by <strong>Naglaa Mossleh</strong> on Saturday, Jan 4th 2024
+      </p>
       <img
         src="assets/post-img.jpg"
         alt="picture Almdrasa log"
@@ -87,7 +90,7 @@
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="assets/related-1.jpg"
@@ -96,7 +99,7 @@
             height="75"
           />
           <a href="#">Get Styling with CSS</a>
-          <p>By mohamed abusrea</p>
+          <p class="related-auther">By mohamed abusrea</p>
         </li>
         <li>
           <img
@@ -106,10 +109,10 @@
             height="75"
           />
           <a href="#">Getting started with javascript</a>
-          <p>By Ahmed Fathy</p>
+          <p class="related-auther">By Ahmed Fathy</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2023 Almdrasa</footer>
+    <footer><p id="Copyright">Copyright &copy; 2023 Almdrasa</p></footer>
   </body>
 </html>
