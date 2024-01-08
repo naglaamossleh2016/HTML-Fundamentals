@@ -65,17 +65,24 @@ li:last-child {
   background-color: #f7f7f7;
   padding: 20px;
   margin-bottom: 60px;
-  height: 80px;
+  margin-top: 20px;
+  border-radius: 3px;
 }
 aside {
   background-color: #f7f7f7;
   padding: 50px 0;
   width: 500px;
+  border-radius: 3px;
 }
-
+nav {
+  font-size: 18px;
+}
 a:link {
   color: #109bab;
   text-decoration: none;
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
 }
 a:visited {
   color: #109bab;
@@ -112,4 +119,53 @@ article {
 }
 h2::after {
   content: "Trending 💥";
+  background-color: #189bab;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 30px;
+  margin-top: 14px;
+  border-radius: 3px;
+}
+.selector {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+/* ul,
+ol {
+  list-style: none;
+}
+li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #0000ff;
+  margin-right: 10px;
+  display: inline-block;
+} */
+/* rtl direction */
+[dir="rtl"] nav a:link {
+  margin-left: 30px;
+  margin-right: 0;
+}
+[dir="rtl"] nav a:link:last-child {
+  margin-left: 0;
+}
+[dir="rtl"] .selector {
+  margin-right: 0;
+}
+[dir="rtl"] h2::after {
+  margin-left: 0;
+  margin-right: 30px;
+}
+[dir="rtl"] .reactions {
+  left: 0;
+  right: auto;
+}
+[dir="rtl"] ul,
+ol {
+  margin-right: 50px;
+  margin-left: 0;
 }
