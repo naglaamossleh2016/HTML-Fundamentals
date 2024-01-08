@@ -9,6 +9,7 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 h1,
 h2,
@@ -103,4 +104,12 @@ article {
   width: 100%;
   height: auto;
   box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+.reactions {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+h2::after {
+  content: "Trending 💥";
 }

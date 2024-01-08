@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.course {
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 600px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.course-name {
+  font-size: 22px;
+  color: white;
+  background-color: #0039fe;
+  font-weight: bold;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.course-img {
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.course-price {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.course-description {
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.course-link:link,
+.course-link:visited {
+  color: #000;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.course-link:hover,
+.course-link:active {
+  text-decoration: none;
+}
+.course-detail {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 20px 0 5px;
+}
+.course-units {
+  list-style: square;
+  margin: 0 0 20px 20px;
+}
+.go-button {
+  color: white;
+  font-size: 20px;
+  background-color: #0039fe;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+.go-button:hover {
+  background-color: #4777ff;
+}
